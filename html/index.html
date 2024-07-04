@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav id="navbar">
+        <a href="#home" class="logo">
+            <img src="/img/logo.png" alt="Restaurant Logo" width="100px" height="100px">
+        </a>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="menu-icon" id="menu-icon"><span class="material-symbols-outlined">menu</span></div>
+    </nav>
+    <header id="home">
+        <h1>Welcome to Our Restaurant</h1>
+        <p>Delicious food served with love.</p>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-us">
+            <img src="/img/about.jpeg" alt="" width="360px" height="360px">
+            <p>Welcome to our restaurant, where culinary excellence meets heartfelt hospitality in an inviting and elegant setting. Our journey began with a passion for creating memorable dining experiences, and we take immense pride in blending the freshest local ingredients with time-honored recipes from around the globe. Our meticulously crafted menu offers more than just a meal—it’s an immersive experience designed to delight the senses. Each dish, whether it’s a savory starter, a sumptuous main course, or a decadent dessert, is prepared with love and precision by our talented culinary team, ensuring that every bite is a testament to our commitment to quality and flavor. Our dedicated staff is passionate about delivering exceptional service, making every guest feel like a cherished friend, whether you’re here for a casual lunch, a romantic dinner, or a special celebration. We believe that dining should be an experience that nourishes both the body and soul, and our warm, inviting atmosphere is designed to make you feel right at home. Sustainability is at the heart of our operations—we source our ingredients locally whenever possible and implement eco-friendly practices throughout the restaurant. This commitment not only supports our community and local farmers but also ensures that we are doing our part to protect the environment.</p>
+        </div>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <img src="/img/dinin.jpg" alt="Dine-in Service">
+            <h3>Dine-in</h3>
+            <p>Enjoy a warm and welcoming dining experience at our restaurant. Our friendly staff is here to ensure you have an unforgettable meal.</p>
+        </div>
+        <div class="service">
+            <img src="/img/take.jpg" alt="Takeaway Service">
+            <h3>Takeaway</h3>
+            <p>Order your favorite dishes to go! Our takeaway service allows you to enjoy our delicious food wherever you are.</p>
+        </div>
+        <div class="service">
+            <img src="/img/delivery.jpeg" alt="Delivery Service">
+            <h3>Delivery</h3>
+            <p>Get your meals delivered straight to your door. Our delivery service is fast, reliable, and brings our gourmet food to your home.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <form action="#" method="POST" class="contact-form">
+                <h2>Contact Us</h2>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required>
+                  
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Restaurant. All rights reserved.</p>
+    </footer>
+    <script src="/js/side.js"></script>
+</body>
+</html>
+
+
+<!-- https://github.com/vishvadarji9/PRODIGY_WD_01.git -->
