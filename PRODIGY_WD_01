@@ -1,3 +1,4 @@
 Responsive Landing Page
 
-"Created an interactive navigation menu for an organic e-commerce website that changes color or style when scrolled or when hovering over a menu item. The navigation menu have a fixed position and it's visible on all pages. Used HTML to structure the menu, CSS to style it, and JavaScript to add interactivity, such as changing the background color or font color of the menu when it is scrolled or when a menu item is hovered over."
+"Created an interactive navigation menu for a restaurant website that changes color or style when scrolled or hovered over. The navigation menu has a fixed position and is visible on all pages. Used HTML for structure, CSS for styling, and JavaScript for interactivity, such as changing the background or font color when scrolling or hovering."
+
